@@ -487,6 +487,8 @@ footer p {
     }
     article {
       font-size: 1rem;
+      justify-content: flex-start;
+    gap: 10px
     }
     footer nav {
       height: fit-content;
@@ -528,5 +530,8 @@ footer p {
     }
     .text-container {
       text-align: justify;
+    }
+    #logos{
+      width: 190px;
     }
   }
