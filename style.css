@@ -157,7 +157,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 100% !important;
   margin: 0 6rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -173,7 +173,8 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 100%;
+  margin-bottom: 60px;
 }
 
 .section__pic-container {
@@ -288,7 +289,7 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
-}
+  }
 
 .about-pic {
   border-radius: 2rem;
@@ -304,7 +305,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
-}
+  }
 
 .section-container {
   gap: 4rem;
@@ -435,12 +436,12 @@ footer p {
 }
 @media screen and (max-width: 1400px) {
     #profile {
-      height: 83vh;
+      height: 100%;
       margin-bottom: 6rem;
     }
     .about-containers {
       flex-wrap: wrap;
-    }
+          }
   }
   
   @media screen and (max-width: 1200px) {
