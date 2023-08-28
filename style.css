@@ -495,16 +495,23 @@ footer p {
       margin-bottom: 2rem;
     }
     .about-containers,
-    .contact-info-upper-container,
     .btn-container {
       flex-wrap: wrap;
     }
+    .contact-info-upper-container{
+      flex-direction: column;
+    }
     .contact-info-container {
       margin: 0;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 2px;
+      padding-bottom: 2px;
     }
     .contact-info-container p,
     .nav-links li a {
       font-size: 1rem;
+   
     }
     .experience-sub-title {
       font-size: 1.25rem;
